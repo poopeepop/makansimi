@@ -10,9 +10,12 @@
 		</nav>
 	</header>
 <h1>Makan Simi?!</h1>
-<div class="magic">
-	<img class="meal-image" src="Assets/Simi_Default.png" alt="Dunno what">
+<div>
+	<img id="meal-image" src="Assets/Simi_Default_Masked.png" alt="Dunno what">
 </div>
-<button type="button">What's my makan today?</button>
+
+<button onclick="document.getElementById('meal-image').src='Assets/Laksa_Meal.png'">Makan Simi?</button>
+<button onclick="document.getElementById('meal-image').src='Assets/Simi_Default_Masked.png'">Reset!</button>
+
 </body>
 </html>

@@ -3,12 +3,9 @@ body {
 	text-align:  center;
 }
 
-.magic{
-	padding-bottom:40px;
-	
-}
-.meal-image{
+#meal-image{
 	width: 600px;
+	padding-bottom:40px;
 }
 
 .header-nav{
