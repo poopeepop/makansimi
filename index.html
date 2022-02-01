@@ -14,8 +14,27 @@
 	<img id="meal-image" src="Assets/Simi_Default_Masked.png" alt="Dunno what">
 </div>
 
+<!-- Defined button<>image src
 <button onclick="document.getElementById('meal-image').src='Assets/Laksa_Meal.png'">Makan Simi?</button>
 <button onclick="document.getElementById('meal-image').src='Assets/Simi_Default_Masked.png'">Reset!</button>
+-->
 
+<button onclick="document.getElementById('meal-image').src='Assets/Simi_Default_Masked.png'">Reset!</button>
+<button onclick="get_random_image()">Randomize Pleaseee!</button>
+<script>
+	image_array=[
+		'BCM_Meal.png',
+		'Laksa_Meal.png',
+		'BCM_Vadai_SC.png'
+	]
+
+	function get_random_image(){
+		random_index = Math.floor(Math.random() * image_array.length);
+		selected_image = image_array[random_index]
+
+		document.getElementById('meal-image').src=`./Assets/${selected_image}`
+	}
+	
+</script>
 </body>
 </html>
