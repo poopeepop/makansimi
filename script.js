@@ -1,4 +1,4 @@
-image_array = ["BCM_Meal.png", "Laksa_Meal.png", "BCM_Vadai_SC.png"];
+image_array = ["1.png","2.png","3.png"];
 
 function reset_to_default() {
     document.getElementById("meal-image").src = "Assets/Simi_Default_Masked.png";
